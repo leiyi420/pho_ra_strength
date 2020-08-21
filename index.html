@@ -9,6 +9,7 @@
 <h2 align="center">Audio samples for "Fine-grained Emotion Strength Transfer, Control and Prediction for Emotional Speech Synthesis"</h2>
 <div><b>Abstract:</b>This paper proposes a unified model to conduct emotion transfer, control and prediction for sequence-to-sequence based fine-grained emotional speech synthesis. Conventional emotional speech synthesis often needs manual labels or reference audio to determine the emotion expressions of synthesized speech.  Such coarse labels cannot control the details of speech emotion, often resulting in an averaged emotion expression delivery, and it is also hard to choose suitable reference audio during inference. To conduct fine-grained emotion expression generation, we introduce phoneme-level emotion strength representations through a learned ranking function to describe the local emotion details, and the sentence-level emotion category is adopted to render the global emotions of synthesized speech. With the global render and local descriptors of emotions, we can obtain fine-grained emotion expressions from reference audio via its emotion descriptors (for transfer) or directly from phoneme-level manual labels (for control). As for the emotional speech synthesis with arbitrary text inputs, the proposed model can also predict phoneme-level emotion expressions from texts, which does not require any reference audio or manual label.</div>
 
+<hr>
 
 <h4>1. Fine-grained emotion transfer (FET) and prediction (FEP):</h4>
 <blockquote>
@@ -60,8 +61,8 @@
 </blockquote>
 
 <h4>2. Fine-grained emotion control:</h4>
-<h6>(0, 1): the local emotion strength descriptors of the first half phonemes is 0, and the last half is 1.</h6>
-<h6>(1, 0): the local emotion strength descriptors of the first half phonemes is 1, and the last half is 0.</h6>
+<p>(0, 1): the local emotion strength descriptors of the first half phonemes is 0, and the last half is 1.</p>
+<p>(1, 0): the local emotion strength descriptors of the first half phonemes is 1, and the last half is 0.</p>
 <blockquote>
 <table border=1>
 <tr>
