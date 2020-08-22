@@ -11,7 +11,7 @@
 
 <hr>
 
-<h4>1. Fine-grained emotion control (FEC):</h4>
+<h4>1. Proposed fine-grained emotion control (FEC):</h4>
 <p>(0, 1): the local emotion strength descriptors of the first half phonemes is 0, and the last half is 1.</p>
 <p>(1, 0): the local emotion strength descriptors of the first half phonemes is 1, and the last half is 0.</p>
 <blockquote>
@@ -22,19 +22,19 @@
     <td align="center"><span>(1, 0)<span></td>
 </tr>
 <tr>
+    <td>disgust</td>
+    <td><audio controls><source src="samples/2.control/250054_01.wav"></audio></td>
+    <td><audio controls><source src="samples/2.control/250054_10.wav"></audio></td>
+</tr>
+<tr>
     <td>surprise</td>
     <td><audio controls><source src="samples/2.control/210368_01.wav"></audio></td>
     <td><audio controls><source src="samples/2.control/210368_10.wav"></audio></td>
 </tr>
 <tr>
-    <td>happy</td>
-    <td><audio controls><source src="samples/2.control/220196_01.wav"></audio></td>
-    <td><audio controls><source src="samples/2.control/220196_10.wav"></audio></td>
-</tr>
-<tr>
-    <td>sad</td>
-    <td><audio controls><source src="samples/2.control/230249_01.wav"></audio></td>
-    <td><audio controls><source src="samples/2.control/230249_10.wav"></audio></td>
+    <td>fear</td>
+    <td><audio controls><source src="samples/2.control/260308_01.wav"></audio></td>
+    <td><audio controls><source src="samples/2.control/260308_10.wav"></audio></td>
 </tr>
 <tr>
     <td>angry</td>
@@ -42,77 +42,77 @@
     <td><audio controls><source src="samples/2.control/240342_10.wav"></audio></td>
 </tr>
 <tr>
-    <td>disgust</td>
-    <td><audio controls><source src="samples/2.control/250054_01.wav"></audio></td>
-    <td><audio controls><source src="samples/2.control/250054_10.wav"></audio></td>
+    <td>sad</td>
+    <td><audio controls><source src="samples/2.control/230249_01.wav"></audio></td>
+    <td><audio controls><source src="samples/2.control/230249_10.wav"></audio></td>
 </tr>
 <tr>
-    <td>fear</td>
-    <td><audio controls><source src="samples/2.control/260308_01.wav"></audio></td>
-    <td><audio controls><source src="samples/2.control/260308_10.wav"></audio></td>
+    <td>happy</td>
+    <td><audio controls><source src="samples/2.control/220196_01.wav"></audio></td>
+    <td><audio controls><source src="samples/2.control/220196_10.wav"></audio></td>
 </tr>
+
 </table>
 <br/>
 </blockquote>
 
-<h4>2. Fine-grained emotion transfer (FET), compared with Global Style Token (GST) and utterance-level transfer (UET): </h4>
+<h4>2. Proposed fine-grained emotion transfer (FET), compared with Global Style Token (GST) and utterance-level transfer (UET) in parallel scene: </h4>
 <blockquote>
 <table border=1>
 <tr>
     <td align="center"><span>Emotion category</span></td>
     <td align="center"><span>Recordings</span></td>
+    <td align="center"><span>FET<span></td>
     <td align="center"><span>UET<span></td>
     <td align="center"><span>GST<span></td>
-    <td align="center"><span>FET<span></td>
-</tr>
-<tr>
-    <td>surprise</td>
-    <td><audio controls><source src="samples/1.transfer/ref_audio/210363.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/utterence_ra/210363.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/gst/210363-210363.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/pho_ra/210363.wav"></audio></td>
 </tr>
 <tr>
     <td>disgust</td>
     <td><audio controls><source src="samples/1.transfer/ref_audio/250053.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/pho_ra/250053.wav"></audio></td>
     <td><audio controls><source src="samples/1.transfer/utterence_ra/250053.wav"></audio></td>
     <td><audio controls><source src="samples/1.transfer/gst/250053-250053.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/pho_ra/250053.wav"></audio></td>
 </tr>
 <tr>
-    <td>happy</td>
-    <td><audio controls><source src="samples/1.transfer/ref_audio/220198.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/utterence_ra/220198.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/gst/220198-220198.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/pho_ra/220198.wav"></audio></td>
-</tr>
-<tr>
-    <td>sad</td>
-    <td><audio controls><source src="samples/1.transfer/ref_audio/230242.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/utterence_ra/230242.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/gst/230242-230242.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/pho_ra/230242.wav"></audio></td>
-</tr>
-<tr>
-    <td>angry</td>
-    <td><audio controls><source src="samples/1.transfer/ref_audio/240343.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/utterence_ra/240343.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/gst/240343-240343.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/pho_ra/240343.wav"></audio></td>
+    <td>surprise</td>
+    <td><audio controls><source src="samples/1.transfer/ref_audio/210363.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/pho_ra/210363.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/utterence_ra/210363.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/gst/210363-210363.wav"></audio></td>
 </tr>
 <tr>
     <td>fear</td>
     <td><audio controls><source src="samples/1.transfer/ref_audio/260642.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/pho_ra/260642.wav"></audio></td>
     <td><audio controls><source src="samples/1.transfer/utterence_ra/260642.wav"></audio></td>
     <td><audio controls><source src="samples/1.transfer/gst/260642-260642.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/pho_ra/260642.wav"></audio></td>
+</tr>
+<tr>
+    <td>angry</td>
+    <td><audio controls><source src="samples/1.transfer/ref_audio/240343.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/pho_ra/240343.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/utterence_ra/240343.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/gst/240343-240343.wav"></audio></td>
+</tr>
+<tr>
+    <td>sad</td>
+    <td><audio controls><source src="samples/1.transfer/ref_audio/230242.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/pho_ra/230242.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/utterence_ra/230242.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/gst/230242-230242.wav"></audio></td>
+<tr>
+    <td>happy</td>
+    <td><audio controls><source src="samples/1.transfer/ref_audio/220198.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/pho_ra/220198.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/utterence_ra/220198.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/gst/220198-220198.wav"></audio></td>
 </tr>
 </table>
 <br/>
 </blockquote>
 
 
-<h4>3. Fine-grained emotion prediction (FEP):</h4>
+<h4>3. Proposed fine-grained emotion prediction (FEP), compared with proposed parallel FET:</h4>
 <blockquote>
 <table border=1>
 <tr>
@@ -122,22 +122,22 @@
     <td align="center"><span>FEP<span></td>
 </tr>
 <tr>
+    <td>disgust</td>
+    <td><audio controls><source src="samples/1.transfer/ref_audio/250053.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/pho_ra/250053.wav"></audio></td>
+    <td><audio controls><source src="samples/3.predict/250053.wav"></audio></td>
+</tr>
+<tr>
     <td>surprise</td>
     <td><audio controls><source src="samples/1.transfer/ref_audio/210363.wav"></audio></td>
     <td><audio controls><source src="samples/1.transfer/pho_ra/210363.wav"></audio></td>
     <td><audio controls><source src="samples/3.predict/210363.wav"></audio></td>
 </tr>
 <tr>
-    <td>happy</td>
-    <td><audio controls><source src="samples/1.transfer/ref_audio/220198.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/pho_ra/220198.wav"></audio></td>
-    <td><audio controls><source src="samples/3.predict/220198.wav"></audio></td>
-</tr>
-<tr>
-    <td>sad</td>
-    <td><audio controls><source src="samples/1.transfer/ref_audio/230242.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/utterence_ra/230242.wav"></audio></td>
-    <td><audio controls><source src="samples/3.predict/230242.wav"></audio></td>
+    <td>fear</td>
+    <td><audio controls><source src="samples/1.transfer/ref_audio/260642.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/pho_ra/260642.wav"></audio></td>
+    <td><audio controls><source src="samples/3.predict/260642.wav"></audio></td>
 </tr>
 <tr>
     <td>angry</td>
@@ -146,16 +146,16 @@
     <td><audio controls><source src="samples/3.predict/240343.wav"></audio></td>
 </tr>
 <tr>
-    <td>disgust</td>
-    <td><audio controls><source src="samples/1.transfer/ref_audio/250053.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/pho_ra/250053.wav"></audio></td>
-    <td><audio controls><source src="samples/3.predict/250053.wav"></audio></td>
+    <td>sad</td>
+    <td><audio controls><source src="samples/1.transfer/ref_audio/230242.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/utterence_ra/230242.wav"></audio></td>
+    <td><audio controls><source src="samples/3.predict/230242.wav"></audio></td>
 </tr>
 <tr>
-    <td>fear</td>
-    <td><audio controls><source src="samples/1.transfer/ref_audio/260642.wav"></audio></td>
-    <td><audio controls><source src="samples/1.transfer/pho_ra/260642.wav"></audio></td>
-    <td><audio controls><source src="samples/3.predict/260642.wav"></audio></td>
+    <td>happy</td>
+    <td><audio controls><source src="samples/1.transfer/ref_audio/220198.wav"></audio></td>
+    <td><audio controls><source src="samples/1.transfer/pho_ra/220198.wav"></audio></td>
+    <td><audio controls><source src="samples/3.predict/220198.wav"></audio></td>
 </tr>
 </table>
 <br/>
